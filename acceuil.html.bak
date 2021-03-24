@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>1XBET</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="acceuil.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/0f33191d58.js" crossorigin="anonymous"></script>
+    <style>
+    	
+    	.img_g img{
+    		width: 45%;
+    		margin-left: 20px;
+
+    	}
+    	.img_d img{
+    		width: 45%;
+    		margin-left: 20px;
+    	}
+    	.score{
+    		padding-top: 20px;
+    		margin-right: 10px;
+    	}
+    	.pari{
+    		font-size: 10px;
+    		padding-left: 6px;
+    	}
+    	.c{
+    		font-size: 10px;
+    		background-color: #095882;
+    		margin-bottom: 5px;
+    	}
+    	.c:hover{
+    		background-color: YellowGreen;
+    	}
+    </style>
+
+	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine0/style.css" />
+	<!--script type="text/javascript" src="engine0/jquery.js"></script-->
+	<!-- End WOWSlider.com HEAD section --></head>
+<body id="body">
+	<!-- *************************                          *****************************
+	                             EN TETE DE MA PAGE DACCEUIL
+	   *************************                            ***************************** -->
+	   <!-- mon conteneur global -->
+	   <section class="containere"> 
+	   	<!-- mon conteneur du premier bar -->
+	   	    <nav class="container_bar1"> 
+	   	    	<!-- le contenu a gauche -->
+	             	<ul class="block_left">
+	             		<li><img src="C:\Users\Admin\Desktop\exam html css\icon\tvv.png"></li>
+	             		<li><img src="C:\Users\Admin\Desktop\exam html css\icon\mob.png"></li>
+	             		<li><img src="C:\Users\Admin\Desktop\exam html css\icon\envoi.png"></li>
+	             		<li><img src="C:\Users\Admin\Desktop\exam html css\icon\euro.png"></li>
+	             		<li><img src="C:\Users\Admin\Desktop\exam html css\icon\tel.png"></li>
+	             		<div class="a">60000 XOF<br><sup class="b">BONUS</sup></div>
+	             	</ul>
+	            <!-- le contenu a droite -->
+	            	<ul class="block_right">
+	            		<li><a href=""><span class="glyphicon glyphicon-user"></span>  SE CONNECTER</a></li>
+	            		<li style="background-color:YellowGreen"><a href=""><span class="glyphicon glyphicon-log-in"></span>  INSCRIPTION</a></li>
+	            		<li><img src="C:\Users\Admin\Desktop\exam html css\icon\para.png" width="50%"><span class="caret"></span></li>
+	            		<li>14:20</li>
+	            		<li>langue</li>
+	            	</ul>
+	   	    </nav>
+	   	    <!-- mon conteneur du second bar -->
+	   	    <nav class="contener_bar2">
+	   	    	<!-- titre du bar -->
+	   	    	<div class="title_bar">
+	   	    		<i>1X<i class="title">BET</i></i>
+	   	    	</div>
+	   	    	<!-- mon conteneur second bar -->
+	   	    	<ul class="menu_bar">
+	   	    		<li><a href="">PARIS SPORTIFS <span class="caret"></span></a></li>
+ 			        <li><a href="">EN DIRECT <span class="caret"></span></a></li>
+ 					<li><a href="">PROMO <span class="caret"></span></a></li>
+ 					<li><a href="">CASINO <span class="caret"></span></a></li>
+ 					<li><a href="">CASINO EN DIRECT <span class="caret"></span></a></li>
+ 					<li><a href="">1XGAMES <span class="caret"></span></a></li>
+ 					<li><a href="">CYBERSPORT <span class="caret"></span></a></li>
+ 					<li><a href="">JEUX TÉLÉ <span class="caret"></span></a></li>
+ 					<li><a href="">PLUS <span class="caret"></span></a></li>
+	   	    	</ul>
+	   	    </nav>
+	   </section>
+	<!-- *************************                          *****************************
+	                                   Fin de mon en tete
+	*****************************                           ***************************** -->
+	<!-- mon conteneur section 2 -->
+	<section class="body" >
+	 	<!-- conteneur match en cour et pas encore debuter-->
+	 	<div class="global">
+    	<!-- match en cour -->
+    	    <div class="match_direct">
+    		 <div class="nom">ITALIE SERIE A</div>
+    		 <div class="statu">
+    		 	<div>1MI-TEMPS</div>
+    		 	<div>39MN</div>
+    		 </div>
+    		 <div class="img">
+    		 	<div class="flex">
+    		 	<div class="img_g"><img src="C:\Users\Admin\Desktop\exam html css\flags\juv.jpg"><br>&ensp;&ensp;&ensp;&ensp;&ensp;JUV</div>
+    		 	<div class="score">1:0</div>
+    		 	<div class="img_d"><img src="C:\Users\Admin\Desktop\exam html css\flags\ben.png"><br>&ensp;&ensp;&ensp;&ensp;BEN</div>
+    		 	</div>
+    		 	<div class="pari">1x2</div>
+    		 	<div class="code">
+    		 		<div class="c">V1&ensp;&ensp;&ensp;1.23</div>
+    		 		<div class="c">X&ensp;&ensp;&ensp;5.00</div>
+    		 		<div class="c">V2&ensp;&ensp;&ensp;10.59</div>
+    		 	</div>
+    		 </div>
+    		 
+    	    </div>
+        <!--  match pas encore commencer -->
+            <div class="no_debut">
+        	     <div class="nom nom2">LIGUE DES CHAMPIONS</div>
+    		 <div class="statu">
+    		 	<div>DEBUT DU MATH:</div>
+    		 	<div>24/15:00</div>
+    		 </div>
+    		 <div class="img img22">
+    		 	<div class="flex">
+    		 	<div class="img_g"><img src="C:\Users\Admin\Desktop\exam html css\flags\liv.png"><br>&ensp;&ensp;&ensp;&ensp;&ensp;LIVERPOOL</div>
+    		 	<div class="score">VS</div>
+    		 	<div class="img_d"><img src="C:\Users\Admin\Desktop\exam html css\flags\rea.png"><br><br>&ensp;&ensp;&ensp;&ensp;REAL</div>
+    		 	</div>
+    		 	<div class="pari">1x2</div>
+    		 	<div class="code">
+    		 		<div class="c">V1&ensp;&ensp;&ensp;1.23</div>
+    		 		<div class="c">X&ensp;&ensp;&ensp;5.00</div>
+    		 		<div class="c">V2&ensp;&ensp;&ensp;10.59</div>
+    		 	</div>
+    		 </div>
+            </div>
+         </div>
+       <!-- pour sinscrire -->
+        <div class="ins">
+        	<div class="bonus">BONUS DE 20% VOTRE PREMIER DEPOT</div>
+        	<div class="I">INSCRIPTION</div>
+            <form>
+            	
+            </form>
+        </div>
+      <!-- conteneur casino et pas casine en direct  -->
+        <div class="casino">
+  	    <!-- casino  -->
+           <div class="cas">
+            <div class="text1">CASINO</div>
+            <div class="text2">plus de <br>8000 <br> jeux</div>
+           </div>
+        <!--  casino en direct -->
+           <div class="cas_direct">
+                 <div class="text1 text3">CASINO EN DIRECT</div>
+                 <div class="text2">plus de <br>100<br> jeux</div>
+           </div>
+        </div>
+       <!--  les images qui defiles -->
+        <div class="img_def">
+        	
+        </div>
+    </section>
+    <!-- ***************************************************************************
+**************************fin premiere partie***********************************
+********************************************************************************/ -->
+    <section class="body2">
+    	<div class="nav_bar1">
+    		<div class="titre">PARIS DIRECT</div>
+    		<div class="search"><input type="text" name="search" placeholder=" recherche" ></div>
+    	</div>
+    	<div class="nav_bar2">
+    	    <div class="titre">Masquer</div>
+    	    <div class="titre">Masquer le bloc</div>
+       </div>
+   </section>
+  <!-- *************************************************************************** -->
+    <section class="body3">
+    	<div class="container1">
+    		<div class="tv"><i class="fas fa-tv" id="tv"></i></div>
+    		<div class="tout"><span class="glyphicon glyphicon-th-large"> Tous</span></div>
+    		<div class="foot"><i class="fas fa-futbol" id="bal"> Football</i></div>
+    		<div class="tenis"><i class="fas fa-baseball-ball" id="te"> Tenis</i></div>
+    		<div class="bask"><i class="fas fa-basketball-ball" id="bsk"> Basketball</i></div>
+    		<div class="hok"><i class="fas fa-hockey-puck" id="global"> Hockey</i></div>
+    		<div class="vol"><i class="fas fa-volleyball-ball" id="global1"> Volleyball</i></div>
+    		<div class="bas"><i class="fas fa-football-ball" id="global"> Football</i></div>
+    	</div>
+    	<div class="container2">
+    	 <div class="cont">
+    	    <div class="cdp">COUPON DE PARI</div>
+    	    <div class="mp">MES PARIS</div>
+    	 </div>
+    	 <div style="background-color: white;font-weight: bold;margin-top: 4px; margin-left: 4px;margin-right: 4px">Ajouter les événements au coupon de pari ou insérer un code pour <div style="text-align: center;">charger les événements</div></div>
+    	  <div style="text-align: center;font-weight: bold;background-color:YellowGreen;margin-top: 8px; margin-left: 4px;margin-right: 4px;height: 25px;padding-top: 3px; color: white">INSCRIPTION</div>
+    	  <div style="text-align: center;font-weight: bold;padding-top: 10px;margin-bottom:10px;">Bonus de 200 % sur votre premier dépôt</div>
+    	  <div style="border-top:solid 1px white;padding-top: 10px;">Sauvegarder / charger coupon de pari</div>
+    	  <div style="height: 200px;">
+    	  	<div style="font-weight: bold;color: white;font-size:20px;text-align: center;margin-top: 20px;">BASKET-BALL</div>
+    	  	<div class="bsk">
+    	  		<div style="margin-top: 50px;margin-left: 60px;"><img src="C:\Users\Admin\Desktop\exam html css\flags\Pacers de l'Indiana.png"></div><div style="color: white;font-size: 20px;font-weight: bold;padding-top: 80px">24/03<br>01:00</div><div style="margin-top: 50px;margin-right: 60px;"><img src="C:\Users\Admin\Desktop\exam html css\flags\Heat de Miami.png"></div>
+    	  </div>
+    	  <div style="display: flex;background-color:#59E1F0" >
+    	  			<div style="color: white;background-color: #0367A6;height: 33px;width: 25%;margin-left: 20px;text-align: center;padding-top: 7px;">2.825</div><div style="background-color: YellowGreen;width: 40%;text-align: center;padding-top: 7px;color: white">PLACER UN PARI</div><div style="color: white;background-color: #0367A6;width: 25%;text-align: center;padding-top: 7px">2.37</div>
+    	  		</div>
+        </div>
+         <div style="height: 200px;padding-top: 70px ">
+    	  	<div style="font-weight: bold;color: white;font-size:20px;text-align: center;margin-top: 20px;">BASKET-BALL</div>
+    	  	<div class="bsk">
+    	  		<div style="margin-top: 50px;margin-left: 60px;"><img src="C:\Users\Admin\Desktop\exam html css\flags\CAVALIERS DE CLEVELAND.JPG"></div><div style="color: white;font-size: 20px;font-weight: bold;padding-top: 80px">24/03<br>23:00</div><div style="margin-top: 50px;margin-right: 60px;"><img src="C:\Users\Admin\Desktop\exam html css\flags\Bucks de Milwaukee.png"></div>
+    	  </div>
+    	  <div style="display: flex;background-color:#59E1F0" >
+    	  			<div style="color: white;background-color: #0367A6;height: 33px;width: 25%;margin-left: 20px;text-align: center;padding-top: 7px;">2.825</div><div style="background-color: YellowGreen;width: 40%;text-align: center;padding-top: 7px;color: white">PLACER UN PARI</div><div style="color: white;background-color: #0367A6;width: 25%;text-align: center;padding-top: 7px">2.37</div>
+    	  		</div>
+        </div>
+   </section>
+  <table class="tPL">
+				<tr style="background-color: #0367A6">	<th><img src="C:\Users\Admin\Desktop\exam html css\flags\ENG.PNG">premier ligue</th>	<th>+3</th>	<th>1X</ th> <th>X</th>	<th>2X</th>	</tr>
+			<tr> 	<td><div>01-</div>  	  <div> <img src="C:\Users\Admin\Desktop\exam html css\flags\cty.jpg"></div><div> MANCHESTER CITY &ensp;VS&ensp; MANCHESTER UNITED <img src="C:\Users\Admin\Desktop\exam html css\flags\manu.png"></div></td>	<td>4.24</td> <td>2.48</td>	<td>5</td>	<td>3.0</td>  </tr>
+			<tr> 	<td><div>02-</div>  	  <div> <img src="C:\Users\Admin\Desktop\exam html css\flags\che.png"></div><div> CHELSEA &ensp;VS&ensp; WEST HAM <img src="C:\Users\Admin\Desktop\exam html css\flags\west.png"></div></td>	<td>4.24</td> <td>1.48</td>	<td>10</td>	<td>5.40</td> 	</tr>
+			<tr> 	<td><div>03-</div>  	  <div> <img src="C:\Users\Admin\Desktop\exam html css\flags\liv.png"></div><div> LIVERPOOL &ensp;VS&ensp; ASTON VILLA <img src="C:\Users\Admin\Desktop\exam html css\flags\aston.png"></div></td>	<td>2.4</td> <td>2.38</td>	<td>15.24</td>	<td>6.49</td>  	</tr>
+			<tr> 	<td><div>04-</div>  	  <div> <img src="C:\Users\Admin\Desktop\exam html css\flags\ars.jpg"></div><div> ARSANAL &ensp;VS&ensp; EVERTON <img src="C:\Users\Admin\Desktop\exam html css\flags\ever.png"></div></td>	<td>2.4</td> <td>2.00</td>	<td>24.01</td>	<td>1.49</td> 	</tr>
+			<tr> 	<td><div>04-</div>  	  <div> <img src="C:\Users\Admin\Desktop\exam html css\flags\tot.png"></div><div> TOTTENHAM &ensp;VS&ensp; WESTHAM <img src="C:\Users\Admin\Desktop\exam html css\flags\westa.png"></div></td>	<td>2.4</td> <td>2.10</td>	<td>11.24</td>	<td>2.49</td>   </tr>
+			<td><div>05-</div>  	  <div> <img src="C:\Users\Admin\Desktop\exam html css\flags\SHE.png"></div><div> SHEFFIELD UNITED &ensp;VS&ensp;LEEDS UNITED <img src="C:\Users\Admin\Desktop\exam html css\flags\LEEDS.png"></div></td>	<td>2.24</td> <td>2.48</td>	<td>5</td>	<td>1.20</td> 
+			<tr style="background-color: #0367A6">	<th><img src="C:\Users\Admin\Desktop\exam html css\flags\espagne.PNG">LA LIGA</th>	<th>+3</th>	<th>1X</ th> <th>X</th>	<th>2X</th>	</tr>
+			<tr> 	<td><div>01-</div>  	  <div> <img src="C:\Users\Admin\Desktop\exam html css\flags\barca.png"></div><div> BARCA &ensp;VS&ensp;REAL <img src="C:\Users\Admin\Desktop\exam html css\flags\rea.png"></div></td>	<td>2.24</td> <td>2.48</td>	<td>5</td>	<td>1.20</td>  </tr>
+			<tr> 	<td><div>02-</div>  	  <div> <img src="C:\Users\Admin\Desktop\exam html css\flags\villare.png"></div><div> VILLAREAL &ensp;VS&ensp; SEVILLE <img src="C:\Users\Admin\Desktop\exam html css\flags\sev.png"></div></td>	<td>4.24</td> <td>1.48</td>	<td>10</td>	<td>5.40</td> 	</tr>
+			<tr> 	<td><div>03-</div>  	  <div> <img src="C:\Users\Admin\Desktop\exam html css\flags\at.png"></div><div> ATHLETIC BILBAO &ensp;VS&ensp; CARDIZ <img src="C:\Users\Admin\Desktop\exam html css\flags\cadiz.png"></div></td>	<td>2.4</td> <td>2.38</td>	<td>15.24</td>	<td>6.49</td>  	</tr>
+			<tr> 	<td><div>04-</div>  	  <div> <img src="C:\Users\Admin\Desktop\exam html css\flags\desp.png"></div><div> DEPORTIVO ALABES &ensp;VS&ensp; GETAFE <img src="C:\Users\Admin\Desktop\exam html css\flags\get.png"></div></td>	<td>2.4</td> <td>2.00</td>	<td>24.01</td>	<td>1.49</td> 	</tr>
+			<tr> 	<td><div>05-</div>  	  <div> <img src="C:\Users\Admin\Desktop\exam html css\flags\real.png"></div><div> REAL SOCIEDADE &ensp;VS&ensp; ELCHE <img src="C:\Users\Admin\Desktop\exam html css\flags\elch.png"></div></td>	<td>2.4</td> <td>2.10</td>	<td>11.24</td>	<td>2.49</td>   </tr>
+			<tr style="background-color: #0367A6">	<th><img src="C:\Users\Admin\Desktop\exam html css\flags\portugal.jpg">SERIE A</th>	<th>+3</th>	<th>1X</ th> <th>X</th>	<th>2X</th>	</tr>
+			<tr> 	<td><div>01-</div>  	  <div> <img src="C:\Users\Admin\Desktop\exam html css\flags\juv.jpg"></div><div> JUVENTUS &ensp;VS&ensp;MILAN <img src="C:\Users\Admin\Desktop\exam html css\flags\milan.png"></div></td>	<td>2.24</td> <td>2.48</td>	<td>5</td>	<td>1.20</td>  </tr>
+			<tr> 	<td><div>02-</div>  	  <div> <img src="C:\Users\Admin\Desktop\exam html css\flags\lazio.png"></div><div> LAZIO &ensp;VS&ensp; GENOA <img src="C:\Users\Admin\Desktop\exam html css\flags\genoa.png"></div></td>	<td>4.24</td> <td>1.48</td>	<td>10</td>	<td>5.40</td> 	</tr>
+			<tr> 	<td><div>03-</div>  	  <div> <img src="C:\Users\Admin\Desktop\exam html css\flags\fiorentina.png"></div><div> FIORENTINA &ensp;VS&ensp; NAPLES <img src="C:\Users\Admin\Desktop\exam html css\flags\naple.png"></div></td>	<td>2.4</td> <td>2.38</td>	<td>15.24</td>	<td>6.49</td>  	</tr>
+			<tr> 	<td><div>04-</div>  	  <div> <img src="C:\Users\Admin\Desktop\exam html css\flags\atalanta.png"></div><div> ATALANTA &ensp;VS&ensp; BEN <img src="C:\Users\Admin\Desktop\exam html css\flags\ben.png"></div></td>	<td>2.4</td> <td>2.00</td>	<td>24.01</td>	<td>1.49</td> 	</tr>
+			<tr> 	<td><div>05-</div>  	  <div> <img src="C:\Users\Admin\Desktop\exam html css\flags\roma.png"></div><div> ROMA &ensp;VS&ensp; SASSUOLO CALCIO <img src="C:\Users\Admin\Desktop\exam html css\flags\sassuolo.png"></div></td>	<td>2.4</td> <td>2.10</td>	<td>11.24</td>	<td>2.49</td>   </tr>
+			<tr style="background-color: #0367A6">	<th><img src="C:\Users\Admin\Desktop\exam html css\flags\FRANCE.png">LIGUE 1</th>	<th>+3</th>	<th>1X</ th> <th>X</th>	<th>2X</th>	</tr>
+			<tr> 	<td><div>01-</div>  	  <div> <img src="C:\Users\Admin\Desktop\exam html css\flags\paris.png"></div><div> PARIS &ensp;VS&ensp;LYON <img src="C:\Users\Admin\Desktop\exam html css\flags\lyon.png"></div></td>	<td>2.24</td> <td>2.48</td>	<td>5</td>	<td>1.20</td>  </tr>
+			<tr> 	<td><div>02-</div>  	  <div> <img src="C:\Users\Admin\Desktop\exam html css\flags\marseille.png"></div><div> MARSEILLE &ensp;VS&ensp; NICE <img src="C:\Users\Admin\Desktop\exam html css\flags\nice.png"></div></td>	<td>4.24</td> <td>1.48</td>	<td>10</td>	<td>5.40</td> 	</tr>
+			<tr> 	<td><div>03-</div>  	  <div> <img src="C:\Users\Admin\Desktop\exam html css\flags\assaiont-etienne.png"></div><div> AS SAINT ETIENNE &ensp;VS&ensp; BORDEAUX <img src="C:\Users\Admin\Desktop\exam html css\flags\bordeaux.png"></div></td>	<td>2.4</td> <td>2.38</td>	<td>15.24</td>	<td>6.49</td>  	</tr>
+			<tr> 	<td><div>04-</div>  	  <div> <img src="C:\Users\Admin\Desktop\exam html css\flags\lilleosc.png"></div><div> LILLE OSC &ensp;VS&ensp; METZ <img src="C:\Users\Admin\Desktop\exam html css\flags\metz.png"></div></td>	<td>2.4</td> <td>2.00</td>	<td>24.01</td>	<td>1.49</td> 	</tr>
+			<tr> 	<td><div>05-</div>  	  <div> <img src="C:\Users\Admin\Desktop\exam html css\flags\nantes.png"></div><div> NANTES &ensp;VS&ensp; LORIENT <img src="C:\Users\Admin\Desktop\exam html css\flags\lorient.png"></div></td>	<td>2.4</td> <td>2.10</td>	<td>11.24</td>	<td>2.49</td>   </tr>			
+			</table>
+			<div class="footer">
+				<div class="cont_title">
+					<div class="titre"><i>1XBET </i>
+						<span><br>Qui sommes-nous ?<br>
+                       Termes et conditions <br>Programme d'affiliation <br>B2B <br>Devenez un agent <br>Politique de Confidentialité <br>Politique des Cookies <br>Contacts</span>
+                    </div>
+					<div class="titre"><i>PARIS </i>
+						<span><br>Paris sportifs <br>MULTIPLEX <br>En direct <br>Casino En direct <br>Toto</span>
+					</div>
+					<div class="titre"><i>JEU</i> 
+						<span><br><Casino<br>1xGAMES <br>Jeux Télé <br>Bingo</span></div>
+					<div class="titre"><i>STATISTIQUES </i>
+						<span><br>Statistiques <br>Résultats </span>
+					</div>
+					<div class="titre"><i>LIENS UTILES</i>
+						<span><br>Vérifiez votre coupon <br>Vérifiez votre coupon <br>Modes de paiement</span>
+					</div>
+					<div class="titre"><i>APPLIS </i>
+						<span><br>iOS <br>Android <br>Windows</span>
+					</div>
+				</div>
+				<div class="footer1">
+					<div class="ps">
+						<span style="color: white;font-weight: bold;text-decoration: underline;">Partenaires sportifs :</span>
+						<div class="img1">
+							
+						</div>
+						<div class="img2">
+							
+						</div>
+						<div class="img3">
+							
+						</div>
+						<div class="img4">
+							
+						</div>
+						<div class="img5">
+							
+						</div>
+					</div>
+					<div class="pe">
+						<span style="color: white;font-weight: bold;text-decoration: underline;">Partenaires sportifs :</span>
+						<div class="img6">
+							
+						</div>
+						<div class="img7">
+							
+						</div>
+						<div class="img8">
+							
+						</div>
+						<div class="img9">
+							
+						</div>
+					</div>
+				</div>
+			</div>
+
+</body>
+</html>
+ 

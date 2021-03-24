@@ -1,0 +1,83 @@
+.cpl{
+	font-size: 11px;
+	font-weight: bold;
+}
+.cpl span{
+	text-align: center;
+}
+.bon{
+	font-size: 11px;
+}
+.fud{
+	background-color: YellowGreen;
+	font-size: 13px;
+	font-weight: bold;
+}
+.mes{
+	font-size: 15px;
+}
+.cmpt{
+	font-size: 12;
+	font-weight: bold;
+}
+/**************************************
+*************************************/
+.casino{
+	width: 16.66%;
+	margin-right: 8px;
+}
+/* <!-- casino  -->*/
+.cas1{
+	border: solid 1px #59E1F0;
+	background-image: url("win.jpg"); 
+	background-repeat: no-repeat;
+	padding-top: 10px;
+    background-size: auto;
+	height: 177px;
+	margin-bottom: 15px;
+}
+.cas1:hover{
+    background-image: url("win.jpg"); 
+	background-repeat: no-repeat;
+	padding-top: 10px;
+    background-size: 150%;
+}
+/*<!--  casino en direct -->*/
+.cas_direct1{
+	border: solid 1px #59E1F0;
+	margin-top: 10px;
+	background-image: url("af-game-girl.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 170px;
+}
+.cas_direct1:hover{
+	margin-top: 10px;
+	background-image: url("af-game-girl.png");
+	background-size: 110%;
+}
+.text11{
+	color: white;
+	margin-left: 15px;
+	padding-top:5px;
+	margin-bottom: 45px;
+	text-decoration: underline 3px; 
+	font-weight: bold;
+}
+.text21{
+	color: #59E1F0;
+	font-weight: bold;
+	margin-left: 15px;
+	font-size: 13px;
+	margin-bottom: 0px;
+}
+.text31{
+	padding-top: 20px;
+}
+.block{
+    background-image: url("game.jpg");
+	background-size: 100%; 
+    height: 345px;
+    width: 100%;
+    background-color: red;
+}

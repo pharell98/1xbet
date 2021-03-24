@@ -1,0 +1,575 @@
+#body{
+	background-color: #022340;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	box-sizing: border-box;
+}
+
+/*<!-- *************************                          *****************************
+	                             EN TETE DE MA PAGE DACCEUIL
+	   *************************                            ***************************** -->
+	   <!-- mon conteneur global -->*/
+.containere{
+    width: 100%;
+    height: 90px;
+}
+/*<!-- mon conteneur du premier bar -->*/
+.container_bar1{
+	background-color: white;
+	 position: fixed;
+	  width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 1px;
+	border-bottom: solid 1px white;
+	height: 36px;
+}
+/*<!-- le contenu a gauche -->*/
+.block_left{
+display: flex;
+margin-bottom: 0px;
+width: 23.5%;
+}
+.block_left li{
+	border-right: solid 1px white;
+	background-color: #024873;
+}
+.block_left img{
+	width: 25px;
+	margin:0px 10px; 
+	padding-top: 5px;
+	padding-bottom:0px;
+}
+.a{
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	padding: 0px 7px;
+	background-color: YellowGreen;
+}
+.b{
+	font-size: 10px;
+}
+/*<!-- le contenu a droite -->*/
+.block_right{
+	display: flex; 
+	margin-bottom:0px;
+}
+.block_right li{
+	background-color:#024873;
+	color: white;
+	padding:7px 11px;
+	border-left: solid 1px white;
+}
+.block_right li a{
+	color: white;
+	text-decoration: none;
+}
+/*<!-- mon conteneur du second bar -->*/
+.contener_bar2{
+	border-bottom: solid 1px white;
+	position: fixed;
+	  width: 100%;
+	  margin-top: 37px;
+	background-color: #024873;
+	display: flex;
+	justify-content: space-between; 
+}
+/*<!-- titre du bar -->*/
+.title_bar{
+    color: white;
+    font-size: 39px;  
+    font-weight: bold;
+    padding-left: 15px;
+}
+.title{
+	color:#048ABF;
+}
+/*<!--menu second bar -->*/
+.menu_bar{
+    display: flex;
+    margin: 0px;
+}
+.menu_bar li{
+    padding-right: 30px;
+    padding-top: 20px;
+}
+.menu_bar li a{
+	font-weight: bold;
+	color: white;
+}
+/*<!-- *************************                          *****************************
+	                                   Fin de mon en tete
+	*****************************                           ***************************** -->*/
+.body{
+	margin-top: 10px;
+	display: inline-flex;
+	width: 99.6%;	
+}
+/*<!-- conteneur match en cour et pas encore debuter-->*/
+.global{
+	width: 16.66%;
+	margin-right: 8px;
+	margin-left: 3px;
+}
+/* <!-- match en cour -->*/
+.match_direct{
+	border: solid 1px #59E1F0;
+	width: 100%;
+	height: 176px;
+	margin-bottom: 18px;
+}
+.nom{
+	font-size: 9px;
+	text-align: center;
+	font-weight: bold;
+	background-color:#003854;
+	color: white;
+}
+.statu{
+	display: flex;
+	justify-content: space-between;
+	font-size: 9px;
+	color: white;
+	background-color:#095882;
+	padding: 2px 4px;
+}	
+.img{
+	background-image: url("1.jpg");
+	background-repeat: no-repeat;
+	background-size: auto;
+   height: 160px;
+   color: white;
+   font-weight: bold;
+   padding-top: 20px;
+}	
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.code{
+	display: flex;
+	justify-content: space-between;
+	margin: 0px 8px;
+}	
+  /*<!--  match pas encore commencer -->*/
+.no_debut{
+	border: solid 1px #59E1F0;
+    width: 100%;
+	height: 166px;
+	padding-top: 5px;
+}
+.img22{
+	height: 134px;
+}
+.nom2{
+	margin-top: -4px;
+}
+
+/* <!-- pour sinscrire -->*/
+.ins{
+ 	width: 16.66%;
+	margin-right:10px;
+ }
+ .ins img{
+ 	height: 180px;
+    border:solid 1px #59E1F0;
+ }
+ .i{
+ 	height: 180px;
+ 	margin-top: 10px;
+    border:solid 1px #59E1F0;
+ }
+ /*<!-- conteneur casino et pas casine en direct  -->*/
+.casino{
+	background-color: ;
+	width: 16.66%;
+	margin-right: 8px;
+}
+/* <!-- casino  -->*/
+.cas{
+	border: solid 1px #59E1F0;
+	background-image: url("c.png");
+	background-size: auto;
+	background-size: 120%;
+    padding-top: 10px;
+	height: 177px;
+	margin-bottom: 15px;
+}
+.cas:hover{
+    background-image: url("c.png"); 
+	background-repeat: no-repeat;
+	padding-top: 10px;
+    background-size: 125%;
+}
+/*<!--  casino en direct -->*/
+.cas_direct{
+	border: solid 1px #59E1F0;
+	margin-top: 10px;
+	background-image: url("c2.jpg");
+	background-size: 100%;
+	height: 170px;
+}
+.cas_direct:hover{
+	margin-top: 10px;
+	background-image: url("c2.jpg");
+	background-size: 110%;
+	height: 163px;
+}
+.text1{
+	color: white;
+	margin-left: 15px;
+	padding-top:5px;
+	margin-bottom: 45px;
+	text-decoration: underline 3px; 
+	font-weight: bold;
+}
+.text2{
+	color: #59E1F0;
+	font-weight: bold;
+	margin-left: 15px;
+	font-size: 13px;
+	margin-bottom: 0px;
+}
+.text3{
+	padding-top: 20px;
+}
+/*<!-- ***************************************************************************
+**************************fin premiere partie***********************************
+********************************************************************************/ 
+.body2{
+	margin-top: 8px;
+	display: flex;
+	margin-left:3px;
+	margin-right: 5px; 
+	height: 35px;
+}
+.nav_bar1{
+	width: 65%;
+    background-color: #095882;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 8px;
+}
+.nav_bar1 .titre{
+	padding-top: 7px;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	font-size: 14px;
+	padding-left: 5px;
+}
+.nav_bar1 .search input{
+	margin-top: 6px;
+   margin-right: 8px;
+   border:solid 1px white;
+
+}
+.nav_bar2{
+	display: flex;
+	justify-content: space-between;
+	width: 35%;
+}
+.nav_bar2 .titre{
+	background-color: #003854;
+    color: white;
+    width: 49.8%;
+    font-size: 10px;
+    text-align: center;
+    padding-top: 10px;
+}
+.body3{
+	display: flex;
+	height: 36.4px;
+	align-items: flex-start;
+}
+.container1{
+	background-color:#024873 ;
+	width: 64.3%;
+	display: flex;
+	margin-left: 3px;
+	margin-top: 1px;
+	height: 35px;
+}
+.container1 .tv{
+	width: 70px;
+	border-right: solid 1px white;
+}
+#tv{
+	color: white;
+	padding-top: 10px;
+	padding-left: 20px;
+}
+.tout{
+	margin-left: 30px;
+	width: 100px;
+}
+.tout span{
+	color: white;
+	padding-left: 15px;
+	padding-top: 7px;
+}
+.foot{
+	margin-left: 30px;
+	width: 100px;
+}
+ #bal{
+	color: white;
+	padding-top: 12%;
+	padding-left: 10px;
+}
+.tenis{
+	margin-left: 30px;
+	width: 100px;
+}
+#te{
+	color: white;
+	padding-top: 12%;
+	padding-left: 15px;
+}
+.bask{
+	margin-left: 30px;
+	width: 100px;
+}
+#bsk{
+	color: white;
+	padding-top: 12%;
+	padding-left: 1px;
+}
+.hok{
+	margin-left: 30px;
+	width: 100px;
+}
+.vol{
+	margin-left: 30px;
+	width: 100px;
+}
+.bas{
+	margin-left: 30px;
+	width: 100px;
+}
+#global{
+    color: white;
+	padding-top: 12%;
+	padding-left: 15px;
+}
+#global1{
+	color: white;
+	padding-top: 12%;
+	padding-left: 5px;
+}
+.container2{
+	margin-top: 1px;
+	width: 34.5%;
+	margin-left: 8px;
+	background-color: #CBDBD7;
+	margin-top: 5px;
+	height: 180px;
+}
+.cont{
+	display: flex;
+}
+.cdp{
+   background-color: #CBDBD7;
+   color: white;
+   width: 49%;
+   height: 30px;
+   padding-left: 40px;
+   padding-top: 5px;
+   font-weight: bold;
+}
+.mp{
+   background-color: #024873;
+   color: white;
+   width: 51%;
+   height: 30px;
+   padding-left: 80px;
+   padding-top: 5px;
+   font-weight: bold;
+}
+.bsk{
+	background-image: url("bsk.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;  
+    display: flex;
+    justify-content: space-between;"
+}
+.block{
+    background-image: url("game.jpg");
+	background-size: 100%; 
+    height: 345px;
+    width: 100%;
+    background-color: red;
+}
+/*************************************************************
+*************************************************************/
+table{
+	width: 64%;
+	border-spacing: 0PX;
+	text-align: center;
+	margin-top: 10px;
+	padding-top: 20px;
+	color: white;
+	margin-left: 5px;
+}
+table th
+{
+    width: 100%;
+	padding-right: 77px;
+}
+table td{
+	border-bottom: 1px solid #000;
+	border-bottom-color: #000;
+	padding-left: 3px;
+	text-align: left;
+}
+table div{
+	display: inline-block;
+	vertical-align:middle;
+	margin-left: 7px;
+}
+table img{
+	width: 25PX;
+	height:30PX;
+	padding-top:5px;
+}
+tr:hover{
+	background-color: #024873;
+}
+/*************************************************************
+*************************************************************/
+.footer{
+	margin-top: 15px;
+	width: 64%;
+	height: 300px;
+	margin-left: 5px;
+	background-color: #003854;
+}
+.cont_title{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	height: 70px;
+}
+.cont_title .titre{
+	color: white;
+	margin-top: 25px;
+	margin-bottom: 15px;
+}
+
+.cont_title .titre i{
+	font-weight: bold;
+	text-decoration: underline;
+}
+.footer1{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 160px;
+	width: 100%;
+	height: 110px;
+	background-color: #022340;
+}
+.ps{
+	margin-top: 10px;
+	width: 50%;
+	height: 100px;
+	background-color: #021526;
+	display: flex;
+	justify-content: space-around;
+	border-right:solid 2px #28A3C9;
+}
+.img1{
+    background-image: url("serie.png");
+    background-size: 60px;
+    background-repeat: no-repeat;
+    width:35%;
+}
+.img2{
+	margin-top: 10px;
+    background-image: url("racine.png");
+    background-size: 60px;
+    background-repeat: no-repeat;
+    width:35%;
+}
+.img3{
+	margin-top: 15px;
+    background-image: url("barca.png");
+    background-size: 60px;
+    background-repeat: no-repeat;
+    width:35%;
+}
+.img4{
+	margin-top: 15px;
+    background-image: url("liv.png");
+    background-size: 60px;
+    background-repeat: no-repeat;
+    width:35%;
+}
+.img5{
+    background-image: url("caf.png");
+    background-size: 60px;
+    background-repeat: no-repeat;
+    width:35%;
+}
+.pe{
+	margin-top: 10px;
+    width: 50%;
+	height: 100px;
+	background-color: #021526;
+	display: flex;
+	justify-content: space-around;
+}
+.img6{
+	margin-top: 25px;
+    background-image: url("cacade.png");
+    background-size: 80px;
+    background-repeat: no-repeat;
+    width:35%;
+    
+}
+.img7{
+	margin-top: 25px;
+    background-image: url("esl.png");
+    background-size: 60px;
+    background-repeat: no-repeat;
+    width:35%;
+}
+.img8{
+	margin-top: 25px;
+    background-image: url("esl2.jpg");
+    background-size: 80px;
+    background-repeat: no-repeat;
+    width:35%;
+}
+.img9{
+	margin-top: 25px;
+    background-image: url("foot.jpg");
+    background-size: 80px;
+    background-repeat: no-repeat;
+    width:35%;
+}
+/*****************************************
+****************************************/
+.menu_bar .mnd .sous_menu{
+	display: none;
+	position: absolute;
+}
+.mnd:hover .sous_menu{
+	display: block;
+}
+.sous_menu li{
+	display: block;
+	background-color: #003854;
+	margin: auto;
+	text-align: left;
+	padding: : 20px 0px;
+}
+.sous_menu li:hover{
+	background-color: white;
+	background-color: #28A3C9;
+}
